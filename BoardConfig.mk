@@ -178,6 +178,6 @@ TW_EXCLUDE_APEX := true
 TW_HAS_EDL_MODE := true
 TW_SUPPORT_INPUT_AIDL_HAPTICS :=true
 TW_LOAD_VENDOR_MODULES := "exfat.ko"
-TW_BACKUP_EXCLUSIONS := /data/fonts
+TW_BACKUP_EXCLUSIONS := /data/fonts,/data/adb/ap,/data/adb/ksu
 TW_FRAMERATE := 60
 
